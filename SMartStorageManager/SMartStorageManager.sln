@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{3D544AA7-2F9B-4CE6-87EC-A324D2BA8C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D7F7E241-303C-4300-A3F7-A0790211BD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{20C801F0-A3C1-40BF-9809-B8372FE9F465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMartStorageManager", "SMartStorageManager\SMartStorageManager.csproj", "{BD20BDFA-D7A3-49B5-BA54-8A4608B7170B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D544AA7-2F9B-4CE6-87EC-A324D2BA8C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D544AA7-2F9B-4CE6-87EC-A324D2BA8C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D544AA7-2F9B-4CE6-87EC-A324D2BA8C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D544AA7-2F9B-4CE6-87EC-A324D2BA8C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F7E241-303C-4300-A3F7-A0790211BD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F7E241-303C-4300-A3F7-A0790211BD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F7E241-303C-4300-A3F7-A0790211BD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F7E241-303C-4300-A3F7-A0790211BD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C801F0-A3C1-40BF-9809-B8372FE9F465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C801F0-A3C1-40BF-9809-B8372FE9F465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C801F0-A3C1-40BF-9809-B8372FE9F465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C801F0-A3C1-40BF-9809-B8372FE9F465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD20BDFA-D7A3-49B5-BA54-8A4608B7170B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD20BDFA-D7A3-49B5-BA54-8A4608B7170B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD20BDFA-D7A3-49B5-BA54-8A4608B7170B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD20BDFA-D7A3-49B5-BA54-8A4608B7170B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
