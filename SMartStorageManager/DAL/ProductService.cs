@@ -31,6 +31,7 @@ namespace DAL
                     CategoryName = objReader["CategoryName"].ToString()
                 });
             }
+            objReader.Close();
             return list;
         }
 
@@ -51,6 +52,7 @@ namespace DAL
                     UnitName = objReader["UnitName"].ToString()
                 });
             }
+            objReader.Close();
             return list;
         }
 
@@ -115,6 +117,7 @@ namespace DAL
                     ProductName = objReader["ProductName"].ToString()
                 };
             }
+            objReader.Close();
             return product;
         }
 
@@ -307,6 +310,7 @@ namespace DAL
                     StatusDescription = objReader["StatusDescription"].ToString()
                 });
             }
+            objReader.Close();
             return list;
         }
 

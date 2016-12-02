@@ -25,18 +25,19 @@ namespace DAL
                 new SqlParameter("@LoginId",objSysAdmin.LoginId),
                 new SqlParameter("@LoginPassword",objSysAdmin.LoginPassword)
             };
-            SqlDataReader reader = Helper.SQLHelper.GetReader(sql, param);
+            SqlDataReader objReader = Helper.SQLHelper.GetReader(sql, param);
             SysAdmins objAdmin = null;
-            if(reader.Read())
+            if(objReader.Read())
             {
                 objAdmin = new SysAdmins()
                 {
-                    LoginId = Convert.ToInt32(reader["LoginId"]),
-                    AdminName = reader["AdminName"].ToString(),
-                    AdminStatus = Convert.ToByte(reader["AdminStatus"]),
-                    RoleId = Convert.ToInt32(reader["RoleId"])
+                    LoginId = Convert.ToInt32(objReader["LoginId"]),
+                    AdminName = objReader["AdminName"].ToString(),
+                    AdminStatus = Convert.ToByte(objReader["AdminStatus"]),
+                    RoleId = Convert.ToInt32(objReader["RoleId"])
                 };
             }
+            objReader.Close();
             return objAdmin;
         }
         public int WriteLoginLog(LoginLogs objLoginLog)
